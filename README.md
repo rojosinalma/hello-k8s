@@ -15,5 +15,5 @@ whatever floats your boat 🤷‍♂️
 
 1. Clone
 2. `kubectl apply -f namespace.yaml -f deployment.yaml -f service.yaml`
-3. `kubectl port-forward deployment/hello 80:80`
+3. `kubectl port-forward deployment/hello -n hello 80:80`
 4. :rocket:
